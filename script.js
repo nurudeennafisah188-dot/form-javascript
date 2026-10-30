@@ -4,7 +4,7 @@ const countDisplay = document.getElementById("count");
 // Select the buttons
 const increaseButton = document.getElementById("increase");
 const resetButton = document.getElementById("reset");
-const decreaseButton = document.getElementById("decrease");
+const decreaseBtn = document.getElementById("decrease");
 
 // Set the initial count
 let count = 0;
@@ -22,7 +22,7 @@ resetButton.addEventListener("click", function () {
 });
 
 // Decrease the count
-decreaseButton.addEventListener("click", function () {
+decreaseBtn.addEventListener("click", function () {
     count--;
     countDisplay.textContent = count;
 });
